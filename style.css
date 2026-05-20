@@ -1,0 +1,184 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f6f9;
+padding:20px;
+}
+
+/* NAVBAR */
+
+nav{
+background:#1f2937;
+padding:15px;
+border-radius:6px;
+margin-bottom:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-right:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+select{
+padding:6px;
+border-radius:5px;
+}
+
+/* TITRES */
+
+h2{
+margin-bottom:15px;
+color:#1f2937;
+}
+
+/* BOUTONS */
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+a{
+color:#2563eb;
+font-weight:bold;
+}
+
+/* FORMULAIRES */
+
+form{
+background:white;
+padding:20px;
+border-radius:8px;
+max-width:500px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+margin-bottom:20px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+/* TABLEAU */
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f1f5f9;
+}
+
+/* ACTIONS */
+
+td a{
+margin:0 5px;
+}
+
+/* RECHERCHE */
+
+.search-box{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+.search-box input{
+flex:1;
+}
+
+.btn-products{
+background:#0ea5e9;
+color:white;
+padding:8px 15px;
+border-radius:5px;
+text-decoration:none;
+display:inline-block;
+margin-left:8px;
+}
+
+.btn-products:hover{
+background:#0284c7;
+}
+
+select{
+width:100%;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+margin-top:8px;
+}
+
+form h3{
+text-align:center;
+margin-bottom:15px;
+color:#2563eb;
+}
+
+/* espacement labels */
+
+form label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+/* bouton formulaire */
+
+form button{
+margin-top:15px;
+width:100%;
+font-size:16px;
+}
+
+/* animation apparition formulaire */
+
+form{
+animation:fadeUp .7s ease;
+}
+
+/* champ readonly (ID) */
+
+input[readonly]{
+background:#f1f5f9;
+cursor:not-allowed;
+}
